@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Web</title>
+    <!--para los iconos de redes sociales-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="perfil">
+          <div class="contenedorFoto">
+            <img src="./imagenes/foto4.png" alt="Oscar Llaccta" class="foto" />
+          </div>
+          <div class="infor">
+            <h1>Oscar Llaccta</h1>
+            <p>Desarrollador Web</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre-mi">
+      <div class="contenedor">
+        <h2>Sobre Mí</h2>
+        <p>
+          "Hola, soy un desarrollador web apasionado por crear experiencias
+          digitales fluidas y funcionales. Me especializo en transformar ideas
+          en soluciones web robustas, combinando diseño elegante con código
+          limpio y eficiente".
+        </p>
+        <p>
+          Cuando no estoy programando, me gusta leer, viajar y explorar nuevas
+          tendencias en tecnología. Mi objetivo es crear soluciones digitales
+          que tengan un impacto positivo en la vida de las personas.
+        </p>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="contenedor">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-container">
+          <div class="proyecto">
+            <h3>TempTracker</h3>
+            <p>Web para ver el tiempo en linea de cada ciudad</p>
+          </div>
+
+          <div class="proyecto">
+            <h3>proyecto html</h3>
+            <p>
+              lenguaje de marcado que le indica al navegador web cómo debe
+              mostrar el texto, las imágenes, los enlaces y otros elementos en
+              la pantalla.
+            </p>
+          </div>
+
+          <div class="proyecto">
+            <h3>css y javascript</h3>
+            <p>
+              CSS (Cascading Style Sheets / Hojas de Estilo en Cascada) Es el
+              lenguaje que se encarga de la presentación visual y el diseño.
+              Define cómo deben verse los elementos estructurados por el HTML.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="contenedor">
+        <h2>Habilidades</h2>
+        <div class="habilidades-lista">
+          <div class="habilidad">MIT App Inventor</div>
+          <div class="habilidad">HTML</div>
+          <div class="habilidad">CSS</div>
+          <div class="habilidad">JavaScript</div>
+
+          <div class="habilidad">GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Nombre" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+          </div>
+          <button onclick="pop_up('Mensaje enviado correctamante')">
+            Enviar Mensaje
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contenedor">
+        <div class="enlaces">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>
+          &copy; 2026 Desarrollado por Juan Pérez - Todos los derechos
+          reservados
+        </p>
+      </div>
+    </footer>
+    <script src="./codigo.js"></script>
+  </body>
+</html>
